@@ -8,6 +8,7 @@ Answer: 29239669
 ## Task - 8 : Digital signatures and Certificates
 
 ### Who is TryHackMe's HTTPS certificate issued by?
+Answer: E1
 
 ## Task - 9 : SSH Authentication
 
