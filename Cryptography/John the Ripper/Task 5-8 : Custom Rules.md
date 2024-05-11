@@ -3,7 +3,7 @@
 ### What do we need to set the "format" flag to, in order to crack this?
 Answer: nt
 
-## What is the cracked value of this password?
+### What is the cracked value of this password?
 Answer: mushroom
 
 Command : john --format=nt --wordlsit=/usr/share/wordlist/rockyou.txt hash.txt
