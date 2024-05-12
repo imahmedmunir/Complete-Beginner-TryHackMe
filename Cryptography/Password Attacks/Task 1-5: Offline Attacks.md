@@ -1,6 +1,6 @@
 # Link on TryhackeMe: [Password Attacks](https://tryhackme.com/r/room/passwordattacks)
 
-## This room belongs to red teaming > initial Access > on TryHackMe
+## This room belongs to red teaming > initial Access > passwrod attacks
 
 ## Task -1 : Only Reading
 
